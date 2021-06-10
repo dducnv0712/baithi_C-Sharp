@@ -34,10 +34,7 @@ namespace baithi.ex2
                 Console.WriteLine(num + " La So Nguyen To");
             }
         }
-        public int Result(int num)
-        {
-            return num;
-        }
+    
         
         public int ShowEvent(int num)
         {
