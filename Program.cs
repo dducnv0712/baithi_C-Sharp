@@ -3,10 +3,9 @@ using baithi.ex2;
 
 namespace baithi
 {
-    public delegate void ShowNumber(int a, int b );
     internal class Program
     {
-        public static ShowNumber ss = new ShowNumber(PrimeNumberFinder.PriceNumber);
+        public static PrimeNumberFinder pn;
         public static void Main(string[] args)
         {
             //ex1
@@ -16,11 +15,20 @@ namespace baithi
             mbPhone.PhonePrice = 200;
             mbPhone.Display();
             //ex2
-            PrimeNumberFinder pn = new PrimeNumberFinder();
+            pn(1);
+            pn(2);
+            pn(3);
+            pn(4);
+            pn(5);
+            pn(6);
+            pn(7);
+            pn(8);
+            pn(9);
+            pn(10);
 
 
         }
     }
 
-  
+    
 }
